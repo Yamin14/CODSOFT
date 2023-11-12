@@ -1,0 +1,103 @@
+
+* {
+    color: #F1EFEF;
+    background-color: #191717;
+}
+
+h3, span {
+    color: #CCC8AA;
+}
+
+/* Header title and image */
+header {
+    text-align: center;
+}
+
+header h1, h2 {
+    margin-top: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header h2 {
+    margin-bottom: 0.5rem;
+}
+
+header h1 {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #F1EFEF;
+}
+
+header img {
+    height: 20rem;
+    margin: 5px;
+}
+
+/* Section */
+section {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/* divs */
+div {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 3px solid #CCC8AA;
+    border-radius: 10px;
+}
+
+/* headings */
+h3 {
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+/* Lists */
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li span {
+    font-weight: 600;
+}
+
+p, ul, ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* footer */
+footer {
+    border-top: 3px solid #F1EFEF;
+    padding-top: 0.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    color: aquamarine;
+}
+
+/* Bigger screens */
+@media screen and (min-width: 500px) {
+    header img {
+        height: 15rem;
+    }
+}
